@@ -25,9 +25,7 @@ class Stapel:
             
     def entnehmen(self):
         if not self.istLeer():
-            self.kopf = self.kopf.next 
-        else: 
-            return None
+            self.kopf = self.kopf.next
 
     def zeigen(self):
         if self.istLeer():
